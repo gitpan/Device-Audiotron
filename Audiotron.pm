@@ -4,12 +4,13 @@ require 5.6.0;
 require Exporter;
 our @ISA = qw(Exporter);
 
+$VERSION = '1.02';
+
 use strict;
 use Carp;
 use vars qw($VERSION @ISA);
 use LWP 5.64 qw(UserAgent);
 
-$VERSION = '1.01';
 
 #Copyright (c) 2002 Dave Crawford. All rights reserved.
 #This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself. 

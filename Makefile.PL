@@ -13,7 +13,7 @@ WriteMakefile (
 
 print <<End_of_Text;
 
-Now do the following to install Device::Audiotron $VERSION:
+Now do the following to install Device::Audiotron:
 
     % make 
     % make test
